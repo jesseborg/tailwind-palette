@@ -26,6 +26,8 @@ impl TailwindShade {
     pub fn hex(&self) -> &str {
         &self.hexcode.as_str()
     }
+
+		pub fn rgb(&self) -> (u8,u8,u8) { self.rgb }
 }
 
 #[derive(Debug, Clone)]
